@@ -1,0 +1,45 @@
+.filterBarContainer{
+    position: relative;
+}
+.filterBar{
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    font-size: 14px;
+    cursor: pointer;
+    width: 200px;
+    
+
+}
+
+.regionsList{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    z-index: 100;
+    transform: translateY(101%);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    padding: 8px;
+   
+}
+
+.listItem{
+    font-size: 14px;
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+.listItem:hover{
+    background: rgba(150,150,150,.05);
+    
+}
+
+@media(max-width: 640px){
+    .filterBar{
+     width: initial
+    }
+  }

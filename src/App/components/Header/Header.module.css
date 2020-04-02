@@ -1,0 +1,26 @@
+.header{
+    height: 10vh;
+    position: relative;
+    top:0;
+    z-index: 2;
+    left:0;
+    right:0;
+    box-shadow: 0 0 10px rgba(0,0,0,.1)
+}
+.heading{
+    font-weight: bold; 
+}
+.button{
+    outline: none;
+    cursor: pointer;
+    border:none;
+    font: inherit;
+    color: inherit;
+    background: inherit;
+}
+.headerContent{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

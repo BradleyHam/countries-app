@@ -1,0 +1,32 @@
+.card{
+    height: 300px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.flag{
+ height: 50%;
+border-radius: 5px 5px 0 0;
+}
+
+.details{
+    padding: 1rem;
+}
+.card span {
+    opacity: .6
+}
+.card strong{
+    padding-right: 10px;
+    opacity: 1;
+    font-weight: 600
+
+}
+
+.card h3{
+    font-weight: bold;
+
+}
+
